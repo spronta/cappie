@@ -1,8 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Cappie",
-  "version": "0.2.0",
-  "description": "Pick any element on a page — or its container — and capture it as a vector SVG you can layer into your designs.",
+  "version": "1.0.0",
+  "description": "Capture any element on a page as a real vector SVG or a high-res PNG, ready to paste straight into Figma.",
+  "homepage_url": "https://github.com/spronta/cappie",
+  "minimum_chrome_version": "116",
   "action": {
     "default_title": "Cappie — pick an element",
     "default_icon": {

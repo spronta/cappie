@@ -1,0 +1,41 @@
+{
+  "name": "cappie",
+  "version": "0.2.0",
+  "description": "Chrome extension that captures any DOM element as a real vector SVG or high-res PNG.",
+  "homepage": "https://github.com/spronta/cappie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spronta/cappie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spronta/cappie/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "icons": "node gen-icons.mjs",
+    "build": "npm run icons && node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "chrome-extension",
+    "svg",
+    "screenshot",
+    "dom-to-svg",
+    "design",
+    "marketing"
+  ],
+  "author": "Spronta Ltd.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "dependencies": {
+    "dom-to-svg": "^0.12.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.2.2",
+    "esbuild": "^0.28.1",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

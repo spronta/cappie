@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cappie test harness</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f4f4f5; padding: 48px; }
+  .hero {
+    max-width: 640px; margin: 0 auto; border-radius: 20px; padding: 48px;
+    background: linear-gradient(135deg, #0b0b0f 0%, #1e1b4b 100%); color: #fafafa;
+  }
+  .chip {
+    display: inline-block; font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase;
+    background: rgba(163, 230, 53, 0.15); color: #a3e635; border: 1px solid rgba(163, 230, 53, 0.4);
+    padding: 6px 12px; border-radius: 999px; margin-bottom: 20px;
+  }
+  h1 { font-family: 'Pacifico', cursive; font-size: 36px; font-weight: 400; margin: 0 0 12px; letter-spacing: -0.02em; }
+  p { color: #a1a1aa; font-size: 16px; line-height: 1.6; margin: 0 0 28px; }
+  .cta {
+    display: inline-block; background: #a3e635; color: #0b0b0f; font-weight: 600;
+    font-size: 15px; padding: 12px 22px; border-radius: 10px; text-decoration: none;
+  }
+  .stats { display: flex; gap: 16px; margin-top: 32px; }
+  .stat { flex: 1; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 16px; }
+  .stat b { display: block; font-size: 24px; }
+  .stat span { font-size: 12px; color: #a1a1aa; }
+</style>
+</head>
+<body>
+  <section class="hero" id="hero">
+    <span class="chip">Search observability</span>
+    <h1>See what agents see.</h1>
+    <p>Spronta keeps your marketing site visible to search engines and AI agents — and fixes what isn't.</p>
+    <a class="cta" id="cta" href="#">Start free scan</a>
+    <div class="stats">
+      <div class="stat"><b>18</b><span>MCP tools</span></div>
+      <div class="stat"><b>74%</b><span>margin</span></div>
+      <div class="stat"><b>2.1s</b><span>avg crawl</span></div>
+    </div>
+  </section>
+  <script src="../dist/content.js"></script>
+</body>
+</html>

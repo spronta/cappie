@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Cappie",
+  "version": "0.2.0",
+  "description": "Pick any element on a page — or its container — and capture it as a vector SVG you can layer into your designs.",
+  "action": {
+    "default_title": "Cappie — pick an element",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-picker": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "Toggle the Cappie element picker"
+    }
+  }
+}

@@ -27,4 +27,4 @@ Any change to this policy will be published in the repository at https://github.
 
 ## Contact
 
-sean@munielabs.com
+Questions about this policy or about how Cappie handles your data: hello@spronta.com

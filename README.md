@@ -6,12 +6,26 @@ Under the hood it uses [dom-to-svg](https://github.com/felixfbecker/dom-to-svg),
 
 ## Install
 
+Grab the packaged build — no toolchain needed:
+
+1. Download **`cappie-1.0.0.zip`** from the [latest release](https://github.com/spronta/cappie/releases/latest) and unzip it.
+2. Open `chrome://extensions` in Chrome (or any Chromium browser — Edge, Brave, Arc).
+3. Turn on **Developer mode** (top-right).
+4. Click **Load unpacked** and select the unzipped `cappie-1.0.0/` folder.
+5. Pin Cappie so its icon stays in the toolbar.
+
+Requires Chrome 116 or newer. A Chrome Web Store listing is on the way; until then this is the install path.
+
+<details>
+<summary>Prefer to build it yourself?</summary>
+
 ```bash
 npm install
 npm run build
 ```
 
-Then in Chrome: `chrome://extensions` → enable **Developer mode** → **Load unpacked** → select the `dist/` folder.
+Then load the generated `dist/` folder as an unpacked extension, same as steps 2–5 above.
+</details>
 
 ## Usage
 
